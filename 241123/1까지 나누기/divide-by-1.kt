@@ -6,7 +6,7 @@ fun main(){
     while(true){
         i++
         input = input/i
-        if(input<1){   
+        if(input<=1){   
             break
         }
     }
