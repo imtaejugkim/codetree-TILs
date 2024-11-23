@@ -1,14 +1,13 @@
 fun main(){
     var input = readLine()!!.toInt()
-    var i = 1
+    var i = 0
 
 
     while(true){
+        i++
         input = input/i
-        if(input<1){
+        if(input<1){   
             break
-        } else{
-            i++
         }
     }
     print(i)
