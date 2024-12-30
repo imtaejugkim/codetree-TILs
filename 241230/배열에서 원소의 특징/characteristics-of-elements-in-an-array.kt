@@ -1,5 +1,6 @@
 fun main(){
-    val nums = readLine()!!.split(" ").map { it.toInt() }
+    val input = readLine()!!.trim()
+    val nums = input.split("").map { it.toInt() }
 
     for(i in 1 until nums.size){
         if(nums[i]%3==0){
