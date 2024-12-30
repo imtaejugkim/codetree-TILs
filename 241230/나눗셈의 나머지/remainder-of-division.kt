@@ -6,7 +6,7 @@ fun main() {
     // 나누는 값보다 나머지가 클 수 없음
     val remainderCounts = IntArray(b) { 0 }
 
-    while (a > 0) {
+    while (a > 1) {
         val remainder = a % b
         remainderCounts[remainder]++ 
         a /= b 
